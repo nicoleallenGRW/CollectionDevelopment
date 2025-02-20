@@ -1,3 +1,4 @@
+--Creates a breakdown of the size of every collection & how many are off shelf
 select
 
 count (case when itemcall.call_number_norm between '000' and '099.999' then 1 end) as "000-099 0",
