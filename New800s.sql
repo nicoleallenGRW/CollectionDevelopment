@@ -1,3 +1,5 @@
+---Creates a list of all new materials added over the last week in a specific collection. Also creates direct links for each item to the catalog.
+
 SELECT 
   call.index_entry,
   item.barcode, 
