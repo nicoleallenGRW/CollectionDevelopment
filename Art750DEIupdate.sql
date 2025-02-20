@@ -1,3 +1,4 @@
+--Create shelf list of all items in a particular collection by call number. Also contains key DEI data tags for staff.
 SELECT 
 itemcall.call_number_norm as "call no.",
 title.best_title AS "Title",
